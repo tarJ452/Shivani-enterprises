@@ -14,7 +14,7 @@ const HeroSection = () => {
           <p className="hero-top-data"></p>
           <h1 className="hero-heading">{name}</h1>
           <p className="hero-para">
-            Shivani Enterprises founder Shiv Kumar Jaiswal 
+            Shivani Enterprises founded by Shiv Kumar Jaiswal in 2010
             
           </p>
           <Button className="btn hireme-btn">
