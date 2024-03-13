@@ -27,8 +27,10 @@ const Footer = () => {
       <footer>
         <div className="container grid grid-four-column">
           <div className="footer-about">
-            <h3>Thapa Technical</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <h3>Shivani Enterprises</h3>
+            <p>17-Vaibhav Chamber,Ushaganj Chawani,Indore (M.P)
+              Pin 452001
+            </p>
           </div>
 
           {/* 2nd column */}
@@ -49,15 +51,17 @@ const Footer = () => {
           <div className="footer-social">
             <h3>Follows Us</h3>
             <div className="footer-social--icons">
+             
               <div>
-                <FaDiscord className="icons" />
-              </div>
-              <div>
-                <FaInstagram className="icons" />
+                <a
+                href="https://www.instagram.com/shivani_enterprisesindore/"
+                target="_blank">
+<FaInstagram className="icons" />
+</a>
               </div>
               <div>
                 <a
-                  href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                  href="https://www.linkedin.com/in/shivani-enterprises-3289142b7/"
                   target="_blank">
                   <FaYoutube className="icons" />
                 </a>
@@ -68,7 +72,9 @@ const Footer = () => {
           {/* 4th column  */}
           <div className="footer-contact">
             <h3>Call Us</h3>
-            <h3>+91 12345678978</h3>
+            <h3>+91 731 406 4168(Landline)
+              +91 9826535543 (Personal)     
+                  </h3>
           </div>
         </div>
 
@@ -77,7 +83,7 @@ const Footer = () => {
           <hr />
           <div className="container grid grid-two-column">
             <p>
-              @{new Date().getFullYear()} ThapaTechnical. All Rights Reserved
+              @{new Date().getFullYear()} ShivaniEnterprises. All Rights Reserved
             </p>
             <div>
               <p>PRIVACY POLICY</p>
